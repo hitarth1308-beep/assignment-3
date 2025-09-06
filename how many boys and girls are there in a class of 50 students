@@ -1,0 +1,7 @@
+
+#include <stdio.h>
+int main() {
+    int boys,girls; scanf("%d %d",&boys,&girls);
+    printf("%d %d",boys,girls);
+    return 0;
+}
