@@ -1,0 +1,8 @@
+
+#include <stdio.h>
+int main() {
+    int n,x,pos=0,neg=0,zero=0; scanf("%d",&n);
+    for(int i=1;i<=n;i++){scanf("%d",&x); if(x>0) pos++; else if(x<0) neg++; else zero++;}
+    printf("%d %d %d",pos,neg,zero);
+    return 0;
+}
